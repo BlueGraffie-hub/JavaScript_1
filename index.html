@@ -18,7 +18,7 @@
             align-items: center;
             background-color: #f0f0f0;
             padding: 20px;
-            height: 100vh; /* 전체 화면 높이 설정 */
+            height: 100vh;
             margin: 0;
         }
 
@@ -43,7 +43,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center; /* 수평 및 수직 중앙 정렬 */
+            align-items: center;
             overflow: hidden;
         }
 
@@ -58,16 +58,14 @@
             margin-bottom: 15px;
         }
 
-        /* 이미지 스타일 */
         .img-style {
             width: 100%;
             height: 100%;
-            object-fit: cover;  /* 이미지가 박스를 덮도록 설정 */
+            object-fit: cover;  
             border-radius: 8px;
             transition: transform 0.5s ease;
         }
 
-        /* 예시 1: 크기 변화 */
         .box-scale {
             width: 100%;
             height: 100%;
@@ -79,7 +77,6 @@
             transform: scale(1.2);
         }
 
-        /* 예시 2: 회전 */
         .box-rotate {
             width: 100%;
             height: 100%;
@@ -91,7 +88,6 @@
             transform: rotate(45deg);
         }
 
-        /* 예시 3: 이동 */
         .box-translate {
             width: 100%;
             height: 100%;
@@ -102,8 +98,6 @@
         .box-translate:hover .img-style {
             transform: translateY(-20px);
         }
-
-        /* 예시 4: 자동 펄스 애니메이션 */
         .box-keyframes {
             width: 100%;
             height: 100%;
@@ -127,7 +121,6 @@
             }
         }
 
-        /* 예시 5: 다중 변환 */
         .box-multiple {
             width: 100%;
             height: 100%;
@@ -139,7 +132,6 @@
             transform: rotate(45deg) scale(1.2);
         }
 
-        /* 예시 6: 복잡한 애니메이션 */
         .box-complex {
             width: 100%;
             height: 100%;
